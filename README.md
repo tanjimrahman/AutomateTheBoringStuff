@@ -683,8 +683,12 @@ When you create the list u, you assign a reference to it in the spam variable. B
 ## chapter 5: Dictionaries and Structuring data
 
 Dictionaries stores an array of data pairs. Unlike lists they are unordered. It has the format of:
+'''python
 Dictname = {keys : values, …}
+'''
+
 Access relevant items in a dictionary using methods such as dictnames.keys() dictname.values(), dictname.items(). 
+'''python
 >>> spam = {'color': 'red', 'age': 42}
 >>> for v in spam.values():
         print(v)
@@ -703,6 +707,6 @@ age
         print('Key: ' + k + ' Value: ' + str(v))
 Key: age Value: 42
 Key: color Value: red
-
+'''
 ## chapter 6: String Manipulation
 
